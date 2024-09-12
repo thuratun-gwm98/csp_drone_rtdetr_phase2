@@ -236,7 +236,8 @@ class ConvertCocoPolysToMask(object):
 
 mscoco_category2name = {
     1: "person",
-    2: "car"
+    2: "vehicle",
+    3: "bicycle"
   }
 
 mscoco_category2label = {k: i for i, k in enumerate(mscoco_category2name.keys())}
